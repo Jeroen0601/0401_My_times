@@ -45,26 +45,26 @@
 
 .container-news {
   display: flex;
-  flex-direction: column;
   align-content: flex-start;
 }
 
 .container-news div {
-  border-style: solid;}
-
-.column {
-
+  border-style: solid;
 }
 
-.column.large {
+.column {
+  flex-direction: column;
+}
+
+.column .large {
   width: 630px;
 }
 
-.column.medium {
+.column .medium {
   width: 300px;
 }
 
-.column.small {
+.column .small {
   width: 240px;
 }
 
