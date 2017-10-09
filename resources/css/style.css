@@ -48,6 +48,10 @@
   align-content: flex-start;
 }
 
+.image-content {
+  background-image: url("../images/img-story-main.png");
+}
+
 .container-news div {
   border-style: solid;
 }
